@@ -13,6 +13,8 @@
 # ionic fonts
 /app/main/assets/fonts/ionicons.*
 
+/app/bower_components/**
+
 # cordova
 /platforms/
 /plugins/
@@ -29,6 +31,8 @@
 # vscode
 /.vscode/
 
+/.tmp/
+
 # webstorm
 /.idea/workspace.xml
 /.idea/libraries
@@ -38,3 +42,8 @@ yarn.lock
 
 # npm
 npm-debug.log
+
+# node
+
+/node_modules/**
+
