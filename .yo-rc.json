@@ -1,0 +1,25 @@
+{
+  "generator-m-ionic": {
+    "answers": {
+      "appName": "App Demo Ionic",
+      "appId": "com.demoapp.app",
+      "ionicCss": false,
+      "bowerPackages": [],
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "plugins": [
+        "cordova-plugin-device",
+        "cordova-plugin-dialogs",
+        "cordova-plugin-inappbrowser",
+        "cordova-plugin-network-information",
+        "cordova-plugin-splashscreen",
+        "cordova-plugin-statusbar"
+      ],
+      "appModule": "appDemoIonic",
+      "ecosystems": [],
+      "install": "npm"
+    }
+  }
+}
