@@ -50,7 +50,7 @@
     "gulp-uglify": "^2.0.0",
     "gulp-useref": "^3.0.4",
     "jasmine-spec-reporter": "^3.2.0",
-    "karma": "^1.1.0",
+    "karma": "1.7.0",
     "karma-angular-filesort": "^1.0.0",
     "karma-jasmine": "^1.0.2",
     "karma-ng-html2js-preprocessor": "^1.0.0",
@@ -68,17 +68,6 @@
     "wiredep": "^4.0.0",
     "xml2js": "^0.4.9",
     "yeoman-test": "^1.1.0"
-  },
-  "generator-m-ionic": {
-    "proxies": [
-      {
-        "proxyMapFrom": "/postman-proxy",
-        "proxyMapTo": "https://echo.getpostman.com"
-      },
-      {
-        "proxyMapFrom": "/another-proxy",
-        "proxyMapTo": "https://echo.getpostman.com"
-      }
-    ]
   }
+  
 }

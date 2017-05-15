@@ -1,15 +1,5 @@
 #!/bin/bash
 
-# VARS
-REPOSITORY_NAME='generator-m-ionic-demo'
-REPOSITORY_BASE='https://github.com/mwaylabs/'
-# TODO: set your BUILD variable according to you CI spec
-BUILD=BUILD_NUMBER
-
-echo -e '\n##################       CLONING       ##################\n'
-git clone ${REPOSITORY_BASE}${REPOSITORY_URL}
-cd ${REPOSITORY_NAME}
-
 # install dependencies
 echo -e '\n################   INSTALL DEPENDENCIES   ################\n'
 echo -e 'install globally required packages'
