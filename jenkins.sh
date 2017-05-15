@@ -1,4 +1,3 @@
-#!/bin/bash
 
 # install dependencies
 echo -e '\n################   INSTALL DEPENDENCIES   ################\n'
